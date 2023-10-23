@@ -1,0 +1,85 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-600 to-sky-800 dark:to-indigo-600"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto">
+            <div class="lg:w-2/3 text-center mx-auto">
+                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Bengkel Las Professional <span class="text-primary dark:text-white">#1</span>Yogyakarta</h1>
+                <p class="mt-8 text-gray-700 dark:text-gray-300">Usaha bengkel las terdekat dengan jasa pembuatan murah, dapat menangani servis / perbaikan / perawatan produk besi. Jasa las: Kanopi, Kerajinan Besi, Konstruksi baja, Pintu Besi, Pintu Garasi, Pintu Pagar, Railing Balkon, Railing Tangga, Tangga Besi, Teralis Jendela / Pintu, dlsb.</p>
+                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                    >
+                      <span class="relative text-base font-semibold text-white"
+                        >Hubungi Kami</span
+                      >
+                    </a>
+                    <a
+                      href="#"
+                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
+                    >
+                      <span
+                        class="relative text-base font-semibold text-primary dark:text-white"
+                        >Lihat Project kami</span
+                      >
+                    </a>
+                  
+                </div>
+                <div class="py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+                    <div class="flex justify-between items-center">
+                      <img class="w-36 h-36" src="https://img.freepik.com/free-photo/3d-hand-hold-money-bag-sack-with-dollar-sign_107791-16387.jpg?w=1060&t=st=1697935664~exp=1697936264~hmac=0ea62e8e10f1faea6cb361f11958098e859278bdb1b36f63f36bacb849e16eee" />
+
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Harga Terjangkau</h6>
+                        <p class="mt-2 text-gray-500"></p>
+                    </div>
+                    </div>                    
+                    <div class="flex justify-between items-center">
+                      <img class="w-32 h-32" src="https://img.freepik.com/free-photo/3d-illustration-sand-clock-isolated-white_107791-16562.jpg?w=1060&t=st=1697937013~exp=1697937613~hmac=1ca9cf54f50789425b48d376378a5f998debb39f7ce7c47ba2466b32d16a3a19" />
+
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Pengerjaan Sesuai target</h6>
+                        <p class="mt-2 text-gray-500"></p>
+                    </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                      <img class="w-32 h-32" src="https://img.freepik.com/free-vector/desk-calendar-with-marked-dates-3d-cartoon-style-icon-planning-time-meeting-scheduling-flat-vector-illustration-appointment-deadline-agenda-reminder-time-management-concept_74855-25964.jpg?w=1060&t=st=1697937161~exp=1697937761~hmac=93e56104ad16fe4d57f11746ef1a03892b7623da42886f37710c8d0e7e492a2d" />
+
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">Perencanaan yg baik</h6>
+                        <p class="mt-2 text-gray-500"></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                  <img src="./images/clients/airbnb.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                  <img src="./images/clients/google.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/ge.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                  <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/netflix.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                  </div>
+                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
+                    <img src="./images/clients/google-cloud.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                </div>
+              </div>
+        </div>
+    </Container>
+</div>
